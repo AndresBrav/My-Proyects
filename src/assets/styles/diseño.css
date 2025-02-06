@@ -2,6 +2,19 @@ body{
     background-color: black;
 }
 
+nav ul {
+    display: flex;
+    gap: 10px;       /*  espacios entre elementos */ /* element1 30px  element2 30px element3  */
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+
+li{
+    padding-left:50px;
+    color: white;
+}
+
 h1{
     color: white;
     text-align: center;
@@ -23,6 +36,7 @@ h1{
     border: 5px solid red;
     /* Distribuye las secciones uniformemente */
     gap: 10px;
+    border-radius: 25px;
 
 }
 
@@ -33,6 +47,7 @@ h1{
     text-align: center;
     border: 3px solid white;
     font-size: 20px;
+    border-radius: 20px;
 }
 
 button{
@@ -40,9 +55,19 @@ button{
     border: 3px solid rgb(224, 5, 5);
     color: white;
     font-size: 50px;
+    border-radius: 50px;
 }
 
 button:hover{
     background-color: yellow;
     opacity: 0.8;
+}
+
+.links{
+    color: white;
+    font-size: 20px;
+}
+
+div{
+    color: white;
 }

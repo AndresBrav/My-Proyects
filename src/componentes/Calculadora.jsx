@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router';
 
 const Calculadora = () => {
     const [operacion, setOperacion] = useState('');
@@ -39,8 +40,14 @@ const Calculadora = () => {
 
     return (
         <>
+            <nav>
+                <ul>
+                    <li><Link to="/" className='links' >Inicio</Link></li>
+                </ul>
+            </nav>
 
             <h1 className='h1center'>Calculadora</h1>
+
             <div className="container">
                 <div className='section'>
                     <h1>Resultado: {operacion}</h1>
