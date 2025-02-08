@@ -1,8 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Calculadora from './componentes/Calculadora'
-import './assets/styles/diseño.css'
 import { BrowserRouter, Route, Routes } from 'react-router'
+import './assets/styles/diseño.css'
+import './assets/styles/diseñoimagenes.css'
 import Inicio from './componentes/Inicio'
 import Imagenes from './componentes/Imagenes'
 
