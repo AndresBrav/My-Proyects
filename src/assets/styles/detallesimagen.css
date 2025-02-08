@@ -1,0 +1,21 @@
+.ddiv{
+    color: white;
+    /* font-size: 80px; */
+    text-align: center;
+}
+
+.dimg{
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+}
+
+.dh1{
+    font-size: 80px;
+    text-align: center;
+}
+
+.dimg:hover{
+    opacity: 70%;
+}

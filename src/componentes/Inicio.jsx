@@ -9,6 +9,7 @@ const Inicio = () => {
                 <ul>
                     <li><Link to="/calculadora" className='links' >Calculadora</Link></li>
                     <li><Link to="/imagenes" className='links' >Imagenes</Link></li>
+                    
                     <li>Estas</li>
                 </ul>
             </nav>
